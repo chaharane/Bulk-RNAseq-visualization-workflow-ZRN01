@@ -226,7 +226,9 @@ n_expressed <- sum(expressed_genes)
 
 ## 1b. Library size comparison across all samples
 
-![Library size boxplot](1-figures/quality_control/lib_size_boxplot.svg)
+<p align="center">
+  <img src="1-figures/quality_control/lib_size_boxplot.svg" alt="Library size boxplot" width="75%">
+</p>
 
 All samples appear to share similar library sizes, so there are 
 
@@ -263,10 +265,21 @@ DESeq2 offers a wi
 
 ## 1e. PCA plot (with and withlout loadings + SCREE plot
 
+<!-- PCA plots side by side -->
 <p align="center">
-  <img src="1-figures/quality_control/pca_plot_noloadings.svg" alt="PCA plot without loadings" width="30%"/>
-  <img src="1-figures/quality_control/pca_plot_loadings.svg" alt="PCA plot with loadings" width="30%"/>
-  <img src="1-figures/quality_control/scree_plot.svg" alt="Scree plot" width="30%"/>
+  <a href="1-figures/quality_control/pca_plot_noloadings.svg">
+    <img src="1-figures/quality_control/pca_plot_noloadings.svg" alt="PCA plot without loadings" width="45%">
+  </a>
+  <a href="1-figures/quality_control/pca_plot_loadings.svg">
+    <img src="1-figures/quality_control/pca_plot_loadings.svg" alt="PCA plot with loadings" width="45%">
+  </a>
+</p>
+
+<!-- Scree plot on its own line -->
+<p align="center">
+  <a href="1-figures/quality_control/scree_plot.svg">
+    <img src="1-figures/quality_control/scree_plot.svg" alt="Scree plot" width="60%">
+  </a>
 </p>
 
 ## 1f. Gene subclass lineplot across
@@ -356,6 +369,16 @@ For QC purposes, this plot is likely superfluous/unnecessary. Regardless, sample
 <p align="center">
   <a href="1-figures/differential_gene_expression/combined_lineplots_grid.svg">
     <img src="1-figures/differential_gene_expression/combined_lineplots_grid.svg" alt="Combined lineplots grid" width="700">
+  </a>
+</p>
+
+## Heatmap of clustered gene expression and aggregate expression of each hierarchically clustered module
+<p align="center">
+  <a href="1-figures/differential_gene_expression/heatmap_top1000var.svg">
+    <img src="1-figures/differential_gene_expression/heatmap_top1000var.svg" alt="Heatmap of top 1000 variable genes" width="48%">
+  </a>
+  <a href="1-figures/differential_gene_expression/top500_variable_genes_lineplots.svg">
+    <img src="1-figures/differential_gene_expression/top500_variable_genes_lineplots.svg" alt="Lineplots of top 500 variable genes" width="48%">
   </a>
 </p>
 
