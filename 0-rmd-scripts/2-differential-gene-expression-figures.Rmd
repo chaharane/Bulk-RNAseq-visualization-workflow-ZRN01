@@ -2252,7 +2252,7 @@ p_heatmap <- pheatmap(
 )
 
 # Save using ggsave
-ggsave("1-figures/differential_gene_expression/heatmap_top1000var.svg", 
+ggsave("1-figures/differential_gene_expression/heatmap_top1000var.png", 
        plot = p_heatmap, 
        width = 5, 
        height = 6.5, 
